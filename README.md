@@ -1,6 +1,6 @@
 ! Vom Claude ai !
 
-alls du eine MariaDB-Version älter als 10.10 verwendest, kann es beim Importieren des Dumps zu Fehlern kommen, da die Kollation `utf8mb4_uca1400_ai_ci` erst ab Version 10.10 unterstützt wird.
+Falls du eine MariaDB-Version älter als 10.10 verwendest, kann es beim Importieren des Dumps zu Fehlern kommen, da die Kollation `utf8mb4_uca1400_ai_ci` erst ab Version 10.10 unterstützt wird.
 
 Prüfe zuerst deine Version:
 
