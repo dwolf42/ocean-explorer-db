@@ -8,10 +8,10 @@ Prüfe zuerst deine Version:
 
 Falls deine Version älter als 10.10 ist, musst du vor dem Import die Kollation im Dump ersetzen. Das geht mit folgendem Befehl:
 
-  sed -i 's/utf8mb4_uca1400_ai_ci/utf8mb4_general_ci/g' ocean_explorer.sql
+  sed -i 's/utf8mb4_uca1400_ai_ci/utf8mb4_general_ci/g' [name der Datei]
 
 Danach kannst du den Dump normal importieren:
 
-  mysql -u root -p < ocean_explorer.sql
+  mysql -u root -p < [name der Datei]
 
 Die Datenbank sollte danach ohne Probleme funktionieren.
